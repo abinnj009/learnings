@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+add_data_to_dll	dll.c	/^add_data_to_dll (dll_t *dll, void *app_data){$/;"	f
+age	application.c	/^    int age;$/;"	m	struct:student_	file:
+comparison_fn	dll.h	/^    int (*comparison_fn)(void *, void *);$/;"	m	struct:dll_
+data	dll.h	/^    void *data;$/;"	m	struct:dll_node_
+designation	application.c	/^    char designation[32];$/;"	m	struct:employee_	file:
+dll_	dll.h	/^typedef struct dll_{$/;"	s
+dll_node_	dll.h	/^typedef struct dll_node_{$/;"	s
+dll_node_t	dll.h	/^} dll_node_t;$/;"	t	typeref:struct:dll_node_
+dll_priority_insert_data	dll.c	/^dll_priority_insert_data (dll_t *dll, void *data){$/;"	f
+dll_search_by_key	dll.c	/^dll_search_by_key (dll_t *dll, void *key){$/;"	f
+dll_t	dll.h	/^} dll_t;$/;"	t	typeref:struct:dll_
+emp_id	application.c	/^    unsigned int emp_id;$/;"	m	struct:employee_	file:
+employee_	application.c	/^typedef struct employee_{$/;"	s	file:
+employee_t	application.c	/^} employee_t;$/;"	t	typeref:struct:employee_	file:
+get_new_dll	dll.c	/^get_new_dll(){$/;"	f
+head	dll.h	/^    dll_node_t *head;$/;"	m	struct:dll_
+key_match	dll.h	/^    int (*key_match)(void *, void *);$/;"	m	struct:dll_
+left	dll.h	/^    struct dll_node_ *left;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+main	application.c	/^main(int argc, char **argv){$/;"	f
+name	application.c	/^    char name[32];$/;"	m	struct:employee_	file:
+name	application.c	/^    char name[32];$/;"	m	struct:student_	file:
+print_employee_db	application.c	/^print_employee_db(dll_t *student_db) {$/;"	f	file:
+print_employee_details	application.c	/^print_employee_details(employee_t *employee){$/;"	f	file:
+print_student_db	application.c	/^print_student_db(dll_t *student_db) {$/;"	f	file:
+print_student_details	application.c	/^print_student_details(student_t *student){$/;"	f	file:
+register_comparison_callback	dll.c	/^register_comparison_callback(dll_t *dll,$/;"	f
+register_key_match_callback	dll.c	/^register_key_match_callback(dll_t *dll, $/;"	f
+right	dll.h	/^    struct dll_node_ *right;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+rollno	application.c	/^    unsigned int rollno;$/;"	m	struct:student_	file:
+salary	application.c	/^    unsigned int salary;$/;"	m	struct:employee_	file:
+search_employee_by_emp_id	application.c	/^search_employee_by_emp_id(dll_t *employee_db, $/;"	f
+search_employee_db_by_key	application.c	/^search_employee_db_by_key(void *data, void *key){$/;"	f	file:
+search_student_by_rollno	application.c	/^search_student_by_rollno(dll_t *student_db, $/;"	f
+search_student_db_by_key	application.c	/^search_student_db_by_key(void *data, void *key){$/;"	f	file:
+student_	application.c	/^typedef struct student_{$/;"	s	file:
+student_comparison_fn	application.c	/^student_comparison_fn(void *stud1, void *stud2){$/;"	f	file:
+student_t	application.c	/^} student_t;$/;"	t	typeref:struct:student_	file:
+weight	application.c	/^    int weight;$/;"	m	struct:student_	file:

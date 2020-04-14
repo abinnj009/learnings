@@ -1,0 +1,140 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+add_data_to_dll	Assignment/dll.c	/^add_data_to_dll (dll_t *dll, void *app_data){$/;"	f
+add_data_to_dll	abinDelegation/dll.c	/^int add_data_to_dll(dll_t *dll, void *app_data) $/;"	f
+add_data_to_dll	comparison_callbacks/dll.c	/^add_data_to_dll (dll_t *dll, void *app_data){$/;"	f
+add_data_to_dll	dll.c	/^add_data_to_dll (dll_t *dll, void *app_data){$/;"	f
+add_data_to_dll	search_callbacks_review/dll.c	/^add_data_to_dll (dll_t *dll, void *app_data){$/;"	f
+age	application.c	/^    int age;$/;"	m	struct:student_	file:
+age	comparison_callbacks/application.c	/^    int age;$/;"	m	struct:student_	file:
+age	search_callbacks_review/application.c	/^    int age;$/;"	m	struct:student_	file:
+comparison_fn	comparison_callbacks/dll.h	/^    int (*comparison_fn)(void *, void *);$/;"	m	struct:dll_
+data	Assignment/dll.h	/^    void *data;$/;"	m	struct:dll_node_
+data	abinDelegation/dll.h	/^	void *data;$/;"	m	struct:dll_node_
+data	comparison_callbacks/dll.h	/^    void *data;$/;"	m	struct:dll_node_
+data	dll.h	/^    void *data;$/;"	m	struct:dll_node_
+data	search_callbacks_review/dll.h	/^    void *data;$/;"	m	struct:dll_node_
+designation	application.c	/^    char designation[32];$/;"	m	struct:employee_	file:
+designation	comparison_callbacks/application.c	/^    char designation[32];$/;"	m	struct:employee_	file:
+designation	search_callbacks_review/application.c	/^    char designation[32];$/;"	m	struct:employee_	file:
+diff	Assignment/diff.c	/^diff (void *root1,    \/*pointer to Data structure 1*\/$/;"	f
+dll_	Assignment/dll.h	/^typedef struct dll_{$/;"	s
+dll_	abinDelegation/dll.h	/^typedef struct dll_{$/;"	s
+dll_	comparison_callbacks/dll.h	/^typedef struct dll_{$/;"	s
+dll_	dll.h	/^typedef struct dll_{$/;"	s
+dll_	search_callbacks_review/dll.h	/^typedef struct dll_{$/;"	s
+dll_node_	Assignment/dll.h	/^typedef struct dll_node_{$/;"	s
+dll_node_	abinDelegation/dll.h	/^typedef struct dll_node_{$/;"	s
+dll_node_	comparison_callbacks/dll.h	/^typedef struct dll_node_{$/;"	s
+dll_node_	dll.h	/^typedef struct dll_node_{$/;"	s
+dll_node_	search_callbacks_review/dll.h	/^typedef struct dll_node_{$/;"	s
+dll_node_t	Assignment/dll.h	/^} dll_node_t;$/;"	t	typeref:struct:dll_node_
+dll_node_t	abinDelegation/dll.h	/^} dll_node_t;$/;"	t	typeref:struct:dll_node_
+dll_node_t	comparison_callbacks/dll.h	/^} dll_node_t;$/;"	t	typeref:struct:dll_node_
+dll_node_t	dll.h	/^} dll_node_t;$/;"	t	typeref:struct:dll_node_
+dll_node_t	search_callbacks_review/dll.h	/^} dll_node_t;$/;"	t	typeref:struct:dll_node_
+dll_priority_insert_data	comparison_callbacks/dll.c	/^dll_priority_insert_data (dll_t *dll, void *data){$/;"	f
+dll_search_by_key	comparison_callbacks/dll.c	/^dll_search_by_key (dll_t *dll, void *key){$/;"	f
+dll_search_by_key	search_callbacks_review/dll.c	/^dll_search_by_key (dll_t *dll, void *key){$/;"	f
+dll_t	Assignment/dll.h	/^} dll_t;$/;"	t	typeref:struct:dll_
+dll_t	comparison_callbacks/dll.h	/^} dll_t;$/;"	t	typeref:struct:dll_
+dll_t	dll.h	/^} dll_t;$/;"	t	typeref:struct:dll_
+dll_t	search_callbacks_review/dll.h	/^} dll_t;$/;"	t	typeref:struct:dll_
+emp_id	application.c	/^    unsigned int emp_id;$/;"	m	struct:employee_	file:
+emp_id	comparison_callbacks/application.c	/^    unsigned int emp_id;$/;"	m	struct:employee_	file:
+emp_id	search_callbacks_review/application.c	/^    unsigned int emp_id;$/;"	m	struct:employee_	file:
+employee_	application.c	/^typedef struct employee_{$/;"	s	file:
+employee_	comparison_callbacks/application.c	/^typedef struct employee_{$/;"	s	file:
+employee_	search_callbacks_review/application.c	/^typedef struct employee_{$/;"	s	file:
+employee_t	application.c	/^} employee_t;$/;"	t	typeref:struct:employee_	file:
+employee_t	comparison_callbacks/application.c	/^} employee_t;$/;"	t	typeref:struct:employee_	file:
+employee_t	search_callbacks_review/application.c	/^} employee_t;$/;"	t	typeref:struct:employee_	file:
+get_app_data_from_list_node	Assignment/evaluation.c	/^get_app_data_from_list_node(void *list_node){$/;"	f
+get_new_dll	Assignment/dll.c	/^get_new_dll(){$/;"	f
+get_new_dll	abinDelegation/dll.c	/^dll_t * get_new_dll()$/;"	f
+get_new_dll	abinDelegation/dll.h	/^dll_t * get_new_dll();$/;"	t	typeref:struct:dll_
+get_new_dll	comparison_callbacks/dll.c	/^get_new_dll(){$/;"	f
+get_new_dll	dll.c	/^get_new_dll(){$/;"	f
+get_new_dll	search_callbacks_review/dll.c	/^get_new_dll(){$/;"	f
+head	Assignment/dll.h	/^    dll_node_t *head;$/;"	m	struct:dll_
+head	abinDelegation/dll.h	/^	dll_node_t *head;$/;"	m	struct:dll_
+head	comparison_callbacks/dll.h	/^    dll_node_t *head;$/;"	m	struct:dll_
+head	dll.h	/^    dll_node_t *head;$/;"	m	struct:dll_
+head	search_callbacks_review/dll.h	/^    dll_node_t *head;$/;"	m	struct:dll_
+height	Assignment/evaluation.c	/^    unsigned int height;$/;"	m	struct:student_	file:
+key_match	comparison_callbacks/dll.h	/^    int (*key_match)(void *, void *);$/;"	m	struct:dll_
+key_match	dll.h	/^    int (*key_match)(void *,void *);$/;"	m	struct:dll_
+key_match	search_callbacks_review/dll.h	/^    int (*key_match)(void *, void *);$/;"	m	struct:dll_
+left	Assignment/dll.h	/^    struct dll_node_ *left;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+left	abinDelegation/dll.h	/^	struct dll_node_ *left;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+left	comparison_callbacks/dll.h	/^    struct dll_node_ *left;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+left	dll.h	/^    struct dll_node_ *left;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+left	search_callbacks_review/dll.h	/^    struct dll_node_ *left;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+list_iterator	Assignment/evaluation.c	/^void* list_iterator (void *list_node){$/;"	f
+main	Assignment/evaluation.c	/^main(int argc, char **argv){$/;"	f
+main	application.c	/^main(int argc, char **argv){$/;"	f
+main	comparison_callbacks/application.c	/^main(int argc, char **argv){$/;"	f
+main	search_callbacks_review/application.c	/^main(int argc, char **argv){$/;"	f
+name	Assignment/evaluation.c	/^    char name[32];$/;"	m	struct:student_	file:
+name	application.c	/^    char name[32];$/;"	m	struct:employee_	file:
+name	application.c	/^    char name[32];$/;"	m	struct:student_	file:
+name	comparison_callbacks/application.c	/^    char name[32];$/;"	m	struct:employee_	file:
+name	comparison_callbacks/application.c	/^    char name[32];$/;"	m	struct:student_	file:
+name	search_callbacks_review/application.c	/^    char name[32];$/;"	m	struct:employee_	file:
+name	search_callbacks_review/application.c	/^    char name[32];$/;"	m	struct:student_	file:
+print_employee_db	application.c	/^print_employee_db(dll_t *student_db) {$/;"	f	file:
+print_employee_db	comparison_callbacks/application.c	/^print_employee_db(dll_t *student_db) {$/;"	f	file:
+print_employee_db	search_callbacks_review/application.c	/^print_employee_db(dll_t *student_db) {$/;"	f	file:
+print_employee_details	application.c	/^print_employee_details(employee_t *employee){$/;"	f	file:
+print_employee_details	comparison_callbacks/application.c	/^print_employee_details(employee_t *employee){$/;"	f	file:
+print_employee_details	search_callbacks_review/application.c	/^print_employee_details(employee_t *employee){$/;"	f	file:
+print_student_db	application.c	/^print_student_db(dll_t *student_db) {$/;"	f	file:
+print_student_db	comparison_callbacks/application.c	/^print_student_db(dll_t *student_db) {$/;"	f	file:
+print_student_db	search_callbacks_review/application.c	/^print_student_db(dll_t *student_db) {$/;"	f	file:
+print_student_details	application.c	/^print_student_details(student_t *student){$/;"	f	file:
+print_student_details	comparison_callbacks/application.c	/^print_student_details(student_t *student){$/;"	f	file:
+print_student_details	search_callbacks_review/application.c	/^print_student_details(student_t *student){$/;"	f	file:
+register_comparison_callback	comparison_callbacks/dll.c	/^register_comparison_callback(dll_t *dll,$/;"	f
+register_key_match_callback	comparison_callbacks/dll.c	/^register_key_match_callback(dll_t *dll, $/;"	f
+register_key_match_callback	search_callbacks_review/dll.c	/^register_key_match_callback(dll_t *dll, $/;"	f
+right	Assignment/dll.h	/^    struct dll_node_ *right;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+right	abinDelegation/dll.h	/^	struct dll_node_ *right;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+right	comparison_callbacks/dll.h	/^    struct dll_node_ *right;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+right	dll.h	/^    struct dll_node_ *right;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+right	search_callbacks_review/dll.h	/^    struct dll_node_ *right;$/;"	m	struct:dll_node_	typeref:struct:dll_node_::dll_node_
+rollno	application.c	/^    unsigned int rollno;$/;"	m	struct:student_	file:
+rollno	comparison_callbacks/application.c	/^    unsigned int rollno;$/;"	m	struct:student_	file:
+rollno	search_callbacks_review/application.c	/^    unsigned int rollno;$/;"	m	struct:student_	file:
+salary	application.c	/^    unsigned int salary;$/;"	m	struct:employee_	file:
+salary	comparison_callbacks/application.c	/^    unsigned int salary;$/;"	m	struct:employee_	file:
+salary	search_callbacks_review/application.c	/^    unsigned int salary;$/;"	m	struct:employee_	file:
+search_employee_by_emp_id	application.c	/^search_employee_by_emp_id(dll_t *employee_db, $/;"	f
+search_employee_by_emp_id	comparison_callbacks/application.c	/^search_employee_by_emp_id(dll_t *employee_db, $/;"	f
+search_employee_by_emp_id	search_callbacks_review/application.c	/^search_employee_by_emp_id(dll_t *employee_db, $/;"	f
+search_employee_db_by_key	comparison_callbacks/application.c	/^search_employee_db_by_key(void *data, void *key){$/;"	f	file:
+search_employee_db_by_key	search_callbacks_review/application.c	/^search_employee_db_by_key(void *data, void *key){$/;"	f	file:
+search_student_by_rollno	application.c	/^search_student_by_rollno(dll_t *student_db, $/;"	f
+search_student_by_rollno	comparison_callbacks/application.c	/^search_student_by_rollno(dll_t *student_db, $/;"	f
+search_student_by_rollno	search_callbacks_review/application.c	/^search_student_by_rollno(dll_t *student_db, $/;"	f
+search_student_db_by_key	comparison_callbacks/application.c	/^search_student_db_by_key(void *data, void *key){$/;"	f	file:
+search_student_db_by_key	search_callbacks_review/application.c	/^search_student_db_by_key(void *data, void *key){$/;"	f	file:
+student_	Assignment/evaluation.c	/^typedef struct student_{$/;"	s	file:
+student_	application.c	/^typedef struct student_{$/;"	s	file:
+student_	comparison_callbacks/application.c	/^typedef struct student_{$/;"	s	file:
+student_	search_callbacks_review/application.c	/^typedef struct student_{$/;"	s	file:
+student_comparator	Assignment/evaluation.c	/^int student_comparator (void *_studentobj1, void *_studentobj2){$/;"	f
+student_comparison_fn	comparison_callbacks/application.c	/^student_comparison_fn(void *stud1, void *stud2){$/;"	f	file:
+student_t	Assignment/evaluation.c	/^} student_t;$/;"	t	typeref:struct:student_	file:
+student_t	application.c	/^} student_t;$/;"	t	typeref:struct:student_	file:
+student_t	comparison_callbacks/application.c	/^} student_t;$/;"	t	typeref:struct:student_	file:
+student_t	search_callbacks_review/application.c	/^} student_t;$/;"	t	typeref:struct:student_	file:
+total_marks	Assignment/evaluation.c	/^    unsigned int total_marks;$/;"	m	struct:student_	file:
+weight	Assignment/evaluation.c	/^    unsigned int weight;$/;"	m	struct:student_	file:
+weight	application.c	/^    int weight;$/;"	m	struct:student_	file:
+weight	comparison_callbacks/application.c	/^    int weight;$/;"	m	struct:student_	file:
+weight	search_callbacks_review/application.c	/^    int weight;$/;"	m	struct:student_	file:
+year_of_birth	Assignment/evaluation.c	/^    unsigned int year_of_birth;$/;"	m	struct:student_	file:
