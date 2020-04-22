@@ -4,16 +4,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef int (*comparator)(void*,void*);
-int greater_than(void *a,void *b){
-	return a > b;
-}
-comparator gt = greater_than;
+typedef int (*comparator)(void *,void *);
 
-int main()
+int greater(void *x, void *y)
 {
-	int y=50, x=100;
-	printf("%d",gt(&x,&y));
-	return 0;
+        return x < y;
+}
+
+comparator gt = greater;
+
+int main(int argc, char **argv)
+{
+        int a=10, b = 15;
+        printf("%d", gt(&a, &b));
+        return 1;
 }
 
