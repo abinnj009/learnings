@@ -1,27 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 typedef struct listitem{
-	int data;
 	struct listitem *next;
-}item;
+	struct listitem *prev;
+	int data;
+} item;
 
 int main()
 {
-	item *head, *temp;
+	item *temp, head;
 
-	head = NULL;
-	for(int i = 0; i < 3;i++){
+	head.next = &head;
+	head.prev = &head;
+	head.data = -1;
+
+	for(int i = 0; i < 3 ;i++){
 		temp = malloc(sizeof(item));
 		temp->data = i;
-		temp->next = head;
-		head = temp;
+		temp->next = head.next;
+		head.next = temp;
+		temp->prev = &head;
+		temp->next->prev = temp;
 	}
-	temp = head;
-	while(temp != NULL){
-		printf("list item: current=%p,next=%p,data=%d\n", 
-				temp, temp->next,temp->data);
-		temp= temp->next;
-	}
-	return 0;
 }
