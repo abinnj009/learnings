@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ITERATE_GL_THREADS_BEGIN	glthread.h	23;"	d
+ITERATE_GL_THREADS_ENDS	glthread.h	30;"	d
+LIBNAME	Makefile	/^LIBNAME=libglthread.a$/;"	m
+__GLTHREADS__	glthread.h	2;"	d
+_glthread_add_next	glthread.c	/^_glthread_add_next(glthread_node_t *curr_node, $/;"	f	file:
+_remove_glthread	glthread.c	/^_remove_glthread(glthread_node_t *glnode){$/;"	f	file:
+designation	main.c	/^    char designation[30];$/;"	m	struct:emp_	file:
+designation	main2.c	/^    char designation[30];$/;"	m	struct:emp_	file:
+emp_	main.c	/^typedef struct emp_ {$/;"	s	file:
+emp_	main2.c	/^typedef struct emp_ {$/;"	s	file:
+emp_id	main.c	/^    unsigned int emp_id;$/;"	m	struct:emp_	file:
+emp_id	main2.c	/^    unsigned int emp_id;$/;"	m	struct:emp_	file:
+emp_t	main.c	/^} emp_t; $/;"	t	typeref:struct:emp_	file:
+emp_t	main2.c	/^} emp_t; $/;"	t	typeref:struct:emp_	file:
+glnode	main.c	/^    glthread_node_t glnode;$/;"	m	struct:emp_	file:
+glnode	main2.c	/^    glthread_node_t glnode;$/;"	m	struct:emp_	file:
+glthread_	glthread.h	/^typedef struct glthread_ {$/;"	s
+glthread_add	glthread.c	/^glthread_add (glthread_t *lst, glthread_node_t *glnode){$/;"	f
+glthread_node_	glthread.h	/^typedef struct glthread_node_ {$/;"	s
+glthread_node_init	glthread.h	32;"	d
+glthread_node_t	glthread.h	/^} glthread_node_t; $/;"	t	typeref:struct:glthread_node_
+glthread_remove	glthread.c	/^glthread_remove(glthread_t *lst, glthread_node_t *glnode){$/;"	f
+glthread_t	glthread.h	/^} glthread_t;$/;"	t	typeref:struct:glthread_
+head	glthread.h	/^    glthread_node_t *head;$/;"	m	struct:glthread_
+init_glthread	glthread.c	/^init_glthread(glthread_t *glthread, unsigned int offset){$/;"	f
+left	glthread.h	/^    struct glthread_node_ *left;$/;"	m	struct:glthread_node_	typeref:struct:glthread_node_::glthread_node_
+main	main.c	/^main(int argc, char **argv){$/;"	f
+main	main2.c	/^main(int argc, char **argv){$/;"	f
+name	main.c	/^    char name[30];$/;"	m	struct:emp_	file:
+name	main2.c	/^    char name[30];$/;"	m	struct:emp_	file:
+offset	glthread.h	/^    unsigned int offset;$/;"	m	struct:glthread_
+offsetof	glthread.h	39;"	d
+print_emp_details	main.c	/^print_emp_details(emp_t *emp){$/;"	f
+print_emp_details	main2.c	/^print_emp_details(emp_t *emp){$/;"	f
+right	glthread.h	/^    struct glthread_node_ *right;$/;"	m	struct:glthread_node_	typeref:struct:glthread_node_::glthread_node_
+salary	main.c	/^    unsigned int salary;$/;"	m	struct:emp_	file:
+salary	main2.c	/^    unsigned int salary;$/;"	m	struct:emp_	file:

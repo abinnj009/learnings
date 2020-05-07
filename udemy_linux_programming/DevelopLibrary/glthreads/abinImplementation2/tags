@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ITERATE_LIST_BEGIN	dll.h	19;"	d
+ITERATE_LIST_END	dll.h	24;"	d
+LIBNAME	Makefile	/^LIBNAME = libdll.a$/;"	m
+__DLL__	dll.h	2;"	d
+_add_node	dll.c	/^static void _add_node(node_t *new_node, node_t *head)$/;"	f	file:
+_remove_node	dll.c	/^static void _remove_node(node_t *node)$/;"	f	file:
+add_node	dll.c	/^ void add_node(list_t *lst, node_t *node)$/;"	f
+designation	main.c	/^        char designation[30];$/;"	m	struct:emp_	file:
+emp_	main.c	/^typedef struct emp_{$/;"	s	file:
+emp_id	main.c	/^        unsigned int emp_id;$/;"	m	struct:emp_	file:
+emp_t	main.c	/^}emp_t;$/;"	t	typeref:struct:emp_	file:
+glnode	main.c	/^        node_t glnode;$/;"	m	struct:emp_	file:
+head	dll.h	/^	node_t *head;$/;"	m	struct:list_
+init_list	dll.c	/^void init_list(list_t *lst, unsigned int offset)$/;"	f
+left	dll.h	/^	struct node_ *left;$/;"	m	struct:node_	typeref:struct:node_::node_
+list_	dll.h	/^typedef struct list_{$/;"	s
+list_t	dll.h	/^}list_t;$/;"	t	typeref:struct:list_
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+name	main.c	/^	char name[30];$/;"	m	struct:emp_	file:
+node_	dll.h	/^typedef struct node_{$/;"	s
+node_init	dll.h	26;"	d
+node_t	dll.h	/^}node_t;$/;"	t	typeref:struct:node_
+offset	dll.h	/^	unsigned int offset;$/;"	m	struct:list_
+offsetof	dll.h	29;"	d
+print_emp_details	main.c	/^void print_emp_details(emp_t *emp){$/;"	f
+remove_node	dll.c	/^void remove_node(list_t *lst, node_t *node)$/;"	f
+right	dll.h	/^	struct node_ *right;$/;"	m	struct:node_	typeref:struct:node_::node_
+salary	main.c	/^        unsigned int salary;$/;"	m	struct:emp_	file:

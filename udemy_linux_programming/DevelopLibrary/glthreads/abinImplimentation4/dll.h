@@ -1,0 +1,36 @@
+#ifndef __DLL__
+#define __DLL__
+typedef struct glthread_node_{
+	struct glthread_node_ *left;
+	struct glthread_node_ *right;
+} glthread_node_t;
+
+typedef struct glthread_{
+	glthread_node_t *head;
+	unsigned int offset;
+} glthread_t;
+
+void glthread_add_node(glthread_t *lst, glthread_node_t *node);
+void glthread_remove_node(glthread_t *lst, glthread_node_t *node);
+void glthread_init(glthread_t *lst, unsigned int offset);
+
+#define ITERATE_GLTHREAD_BEGIN(lstptr, struct_type, ptr) \
+{\
+	glthread_node_t *_glnode = NULL, *_next = NULL;\
+	for(_glnode=lstptr->head;_glnode;_glnode = _next)\
+	{\
+		_next = _glnode->right;\
+		ptr = (struct_type *)((char *)_glnode - lstptr->offset);
+#define ITERATE_GLTHREAD_END }}
+
+#define glthread_node_init(glnode) \
+	glnode->left = NULL;\
+	glnode->right = NULL;
+
+
+#define offsetof(struct_name,field_name) \
+	((unsigned int)&((struct_name *)0)->field_name)
+
+
+
+#endif
