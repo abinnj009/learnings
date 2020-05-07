@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX_PAYLOAD	netLinkKernelUtils.h	38;"	d
+NETLINK_TEST_PROTOCOL	netLinkKernelUtils.h	52;"	d
+NLMSG_GREET	netLinkKernelUtils.h	41;"	d
+NetlinkGreetings_exit	greetNetlinkLKM.c	/^module_exit(NetlinkGreetings_exit);$/;"	v
+NetlinkGreetings_exit	greetNetlinkLKM.c	/^static void __exit NetlinkGreetings_exit(void) {$/;"	f	file:
+NetlinkGreetings_init	greetNetlinkLKM.c	/^module_init(NetlinkGreetings_init); $/;"	v
+NetlinkGreetings_init	greetNetlinkLKM.c	/^static int __init NetlinkGreetings_init(void) {$/;"	f	file:
+__NL_COMMON__	netLinkKernelUtils.h	32;"	d
+__cached_gcc_-print-file-name_include	.cache.mk	/^__cached_gcc_-print-file-name_include := \/usr\/lib\/gcc\/x86_64-linux-gnu\/7\/include$/;"	m
+__this_module	greetNetlinkLKM.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	greetNetlinkLKM.mod.c	/^__used$/;"	v	file:
+_start_kernel_data_receiver_thread	userspace.c	/^_start_kernel_data_receiver_thread(void *arg){$/;"	f	file:
+cfg	greetNetlinkLKM.c	/^static struct netlink_kernel_cfg cfg = {$/;"	v	typeref:struct:netlink_kernel_cfg	file:
+create_netlink_socket	userspace.c	/^create_netlink_socket(int protocol_number){$/;"	f
+exit_userspace	userspace.c	/^exit_userspace(int sock_fd){$/;"	f	file:
+gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-fno-PIE_-mno-sse_-mno-mmx_-mno-sse2_-mno-3dnow_-mno-avx_-m64_-falign-jumps_1_-falign-loops_1_-mno-80387_-mno-fp-ret-in-387_-mpreferred-stack-boundary_3_-mskip-rax-setup_-mtune_generic_-mno-red-zone_-mcmodel_kernel_-funit-at-a-time_-DCONFIG_X86_X32_ABI_-DCONFIG_AS_CFI_1_-DCONFIG_AS_CFI_SIGNAL_FRAME_1_-DCONFIG_AS_CFI_SECTIONS_1_-DCONFIG_AS_FXSAVEQ_1_-DCONFIG_AS_SSSE3_1_-DCONFIG_AS_CRC32_1_-DCONFIG_AS_AVX_1_-DCONFIG_AS_AVX2_1_-DCONFIG_AS_AVX512_1_-DCONFIG_AS_SHA1_NI_1_-DCONFIG_AS_SHA256_NI_1_-pipe_-Wno-sign-compare_-fno-asynchronous-unwind-tables_-mindirect-branch_thunk-extern_-mindirect-branch-register_-DRETPOLINE_-fno-delete-null-pointer-checks_-Wno-frame-address_-Wno-format-truncation_-Wno-format-overflow_-Wno-int-in-bool-context_-O2__--param_allow-store-data-races_0	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-fno-PIE_-mno-sse_-mno-mmx_-mno-sse2_-mno-3dnow_-mno-avx_-m64_-falign-jumps_1_-falign-loops_1_-mno-80387_-mno-fp-ret-in-387_-mpreferred-stack-boundary_3_-mskip-rax-setup_-mtune_generic_-mno-red-zone_-mcmodel_kernel_-funit-at-a-time_-DCONFIG_X86_X32_ABI_-DCONFIG_AS_CFI_1_-DCONFIG_AS_CFI_SIGNAL_FRAME_1_-DCONFIG_AS_CFI_SECTIONS_1_-DCONFIG_AS_FXSAVEQ_1_-DCONFIG_AS_SSSE3_1_-DCONFIG_AS_CRC32_1_-DCONFIG_AS_AVX_1_-DCONFIG_AS_AVX2_1_-DCONFIG_AS_AVX512_1_-DCONFIG_AS_SHA1_NI_1_-DCONFIG_AS_SHA256_NI_1_-pipe_-Wno-sign-compare_-fno-asynchronous-unwind-tables_-mindirect-branch_thunk-extern_-mindirect-branch-register_-DRETPOLINE_-fno-delete-null-pointer-checks_-Wno-frame-address_-Wno-format-truncation_-Wno-format-overflow_-Wno-int-in-bool-context_-O2__--param_allow-store-data-races_0 := y$/;"	m
+gcc-version.sh_-p_gcc	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-version.sh_-p_gcc := 070300$/;"	m
+gcc-version.sh_gcc	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-version.sh_gcc := 0703$/;"	m
+greet_kernel	userspace.c	/^greet_kernel(int sock_fd, char *msg, uint32_t msg_len){$/;"	f	file:
+main	userspace.c	/^main(int argc, char **argv){$/;"	f
+netlink_get_msg_type	netLinkKernelUtils.h	/^netlink_get_msg_type(__u16 nlmsg_type){$/;"	f
+netlink_recv_msg_fn	greetNetlinkLKM.c	/^static void netlink_recv_msg_fn(struct sk_buff *skb_in){$/;"	f	file:
+new_seq_no	userspace.c	/^uint32_t new_seq_no(){$/;"	f
+nl_sk	greetNetlinkLKM.c	/^static struct sock *nl_sk = NULL;       \/*Kernel space Netlink socket ptr*\/$/;"	v	typeref:struct:sock	file:
+nlmsg_dump	netLinkKernelUtils.h	/^nlmsg_dump(struct nlmsghdr *nlh){$/;"	f
+send_netlink_msg_to_kernel	userspace.c	/^send_netlink_msg_to_kernel(int sock_fd, $/;"	f
+sock_fd	userspace.c	/^    int sock_fd;$/;"	m	struct:thread_arg_	file:
+start_kernel_data_receiver_thread	userspace.c	/^start_kernel_data_receiver_thread(thread_arg_t *thread_arg){$/;"	f
+thread_arg_	userspace.c	/^typedef struct thread_arg_{$/;"	s	file:
+thread_arg_t	userspace.c	/^} thread_arg_t;$/;"	t	typeref:struct:thread_arg_	file:
